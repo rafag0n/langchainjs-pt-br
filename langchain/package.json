@@ -763,7 +763,8 @@
     "test:integration": "NODE_OPTIONS=--experimental-vm-modules jest --testPathPattern=\\.int\\.test.ts --testTimeout 100000 --maxWorkers=50%",
     "test:single": "NODE_OPTIONS=--experimental-vm-modules yarn run jest --config jest.config.cjs --testTimeout 100000",
     "format": "prettier --write \"src\"",
-    "format:check": "prettier --check \"src\""
+    "format:check": "prettier --check \"src\"",
+    "prepare": "yarn build"
   },
   "author": "LangChain",
   "license": "MIT",
